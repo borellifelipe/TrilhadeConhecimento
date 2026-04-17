@@ -14,7 +14,7 @@
 - Comando cd + o nome da pasta voce entra no na pasta que escreveu, caso as pastas tenha nomes direferentes quando escrever uma parte do nome e der um TAB, puxa o restante do nome da pasta.
 
 ## cd ~
-- Comando que vola para para o diretorio.
+- Comando que vai para para o diretorio.
 
 ## cd ..
 - Comando que volta para o diretorio anterior.
