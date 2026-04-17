@@ -8,9 +8,7 @@
 
 - echo "deb [signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null -*Adiciona o repositório do Docker ao sistema.*
 
-- sudo apt update
-- sudo apt install -y docker-ce docker-ce-cli containerd.io
-- *Os 2 comandos acima precisa ser juntos - Atualiza os repositórios e instale o Docker Engine.*
+- sudo apt update e sudo apt install -y docker-ce docker-ce-cli containerd.io - *Os 2 comandos acima precisa ser juntos - Atualiza os repositórios e instale o Docker Engine.*
 
 - sudo usermod -aG docker $USER - *Adicione seu usuário ao grupo Docker para evitar a necessidade de usar sudo em cada comando Docker.*
 
