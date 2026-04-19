@@ -14,6 +14,6 @@ vv
 - processo de instalação não compativel, conferir.
 
 # sudo apt update
-- ![alt text](image.png)
+- ![alt text](image.png) - removi pois consegui resolver
 - mesmo habilitado o comando está com erro.
 -->
