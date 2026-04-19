@@ -63,4 +63,40 @@
 # Criando branches #9
 [Texto do link](https://youtu.be/lq3nawUnpEI?si=kid6aj0lJ6fNlbIn)
 
+ - Branch - *uma outra linha de codigo que voce começa a fazer edições sem afetar o script principal, depois da atualização é so fundir com o código principal.*
+ - git branch - *comando que mostra a lista de branch existente no projeto.*
+ - gt branch nomedocarquivo - *comando onde criar uma nova Branch para trabalhar.*
 
+# Fundindo branches #10
+[Texto do link](https://youtu.be/o5fm7l_e1Bc?si=fn5M5q5tzmVFFjuE)
+
+- Senpre ir para o Main de destino, desta forma voce ira trazer o outro Branc que voce quer fundir.
+- git merge nomedoarquivo- *comando que ira trazer a outra branch para a atual, fundindo as duas.*
+
+# Resolvendo conflitos #11
+[Texto do link](https://youtu.be/FSzHRPa-zl4?si=vahWvQMYRdjs5How)
+
+git log --onelinne - *comando onde mostra todos os commits.*
+git commit - *comando que em casos de erro termina a fusão das branches.*
+
+# Iniciando com Github #12
+[Texto do link](https://youtu.be/uaWtCItNry8?si=H4dXIAjzNRMdKSTA)
+
+- Baixar o GitHub  Já está instalado.
+- git clone SSHdoprojetonocit - *comando que faz clonar o projeto do git para seu computador.*
+- rm -rf nomedaspatas - *comando para deletar uma pasta.*
+
+### Vincular a chave SSH no GitHub
+- ssh-keygen -t rsa -b 4096 -C "borelli.felipe01@gmail.com" - *comando para permitir ser gerado a chave SSH.* Depois disso ira aparecer para colocar a senha caso queira, se não precisar da enter até aparecer os desenhos.
+- cat C:\Users\Saipos\.ssh\id_rsa.pub - *comando para gerar a chave para ser colado no GitHub.*
+
+# Simulando múltiplos devs #13
+[Texto do link](https://youtu.be/AQ5v4ZCG1h0?si=uSsKWSPvFjPM58d6)
+
+- git clone SSHdoprojetonocit nomedapasta - *comando que faz clonar a pasta renomeando ela no seu computador de outra forma para queira identificar.*
+- Git commit -m "mensagem" --autor= "nomedequemfezcomit" - *comando para identificar o comite com o nome do responsavel.*
+
+# Fazendo Pull Request (PR) #14
+[Texto do link](https://youtu.be/RNbKd8cD0LI?si=FEcqXjZj-i3I0NIC)
+
+git push origin svg - *comando para ficar no GitHub para o script ser analisado, para alguém autorizar a fusão no GetHub.*
