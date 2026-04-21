@@ -100,3 +100,9 @@ git commit - *comando que em casos de erro termina a fusão das branches.*
 [Texto do link](https://youtu.be/RNbKd8cD0LI?si=FEcqXjZj-i3I0NIC)
 
 git push origin svg - *comando para ficar no GitHub para o script ser analisado, para alguém autorizar a fusão no GetHub.*
+
+# Fazendo Pull Request (PR) #15
+[Texto do link](https://youtu.be/n_GEGPuNNRA?si=czYbbrrDweXrak8B)
+
+- Esse é um processo onde voce puxa o script de alguma pessoa no GetHub para voce e faz melhorias para serem sugeridas ao proprietário. Destá forma a pessoa que criou analisa para ver se ele quer fundir ao seu projeto ou não.
+
